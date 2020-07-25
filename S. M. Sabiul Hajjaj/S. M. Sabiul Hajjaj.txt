@@ -8,3 +8,4 @@ week - 2
  Marge CSV file from - http://merge-csv.com/
  Use - http://ilearn.erc.monash.edu/
  Start a Course - https://www.coursera.org/learn/introduction-tensorflow/home/welcome
+ All .npy File Link - https://drive.google.com/drive/folders/1BPtBTCwuONnQEOghc7HQUDcxvVhfIqlC?usp=sharing
