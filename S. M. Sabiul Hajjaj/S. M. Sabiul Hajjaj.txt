@@ -3,3 +3,8 @@ S. M. Sabiul Hajjaj
 week - 1
 Start a ML Course in Coursera
  Course Link - https://www.coursera.org/learn/ml-foundations
+ 
+week - 2
+ Marge CSV file from - http://merge-csv.com/
+ Use - http://ilearn.erc.monash.edu/
+ Start a Course - https://www.coursera.org/learn/introduction-tensorflow/home/welcome
