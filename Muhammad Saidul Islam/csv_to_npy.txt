@@ -3,5 +3,5 @@ import numpy as np
 
 data = pd.read_csv("copyInputFilePath", header=None)
 data = pd.DataFrame(data)
-data.drop([0],inplace=True,axis=1) #delete 1st column
+data.drop([0],inplace=True,axis=1)
 np.save('OutputFile',data)
