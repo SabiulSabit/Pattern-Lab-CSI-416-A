@@ -16,7 +16,7 @@ def house_model(y_new):
     ys = np.array([100.0, 150.0, 200.0, 250.0,300.0], dtype=float)
     model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
     model.compile(optimizer='sgd', loss='mean_squared_error')
-    model.fit(xs, ys, epochs=1500)
+    model.fit(xs, ys/100, epochs=1500)
     return model.predict(y_new)[0]
 
 prediction = house_model([7.0])
