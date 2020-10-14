@@ -1,0 +1,18 @@
+1. Download the 4 FASTA files provided by the faculty.
+2. Convert those files to iLearn compatible .txt using fasta_to_txt.py
+3. A.thaliana1000indep_neg.txt and A.thaliana1000indep_pos.txt will work fine with iLearn.
+4. The remaining two text files' lengths exceed iLearn's maximum workable length (2000 lines).
+5. So, we will split them into 3 parts using a text editor.
+6. Select feature descriptor using http://ilearn.erc.monash.edu:
+   Kmer
+	Kmer size -> 1, 2, 3
+   ENAC
+   	ENAC size -> 5
+   PCPseDNC
+    Lamada -> 2 , Weight -> 0.1
+    Select all the RNA's under Di-RNA-Physicochemical indices.
+7. Output format -> CSV Format
+8. Feature normalization methods: MiniMax
+9. Merge the csv's of A.thaliana5289_neg and A.thaliana5289_pos using merge-csv.com
+10. Convert the .csv files into .npy using csv_to_npy.py
+11. Show the data using load_npy.py
